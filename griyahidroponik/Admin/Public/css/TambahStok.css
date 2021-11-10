@@ -1,0 +1,9 @@
+.body-container{
+  width:50%; padding: 40px;
+}
+@media screen and (max-width:768px) {
+  .body-container{
+    width: 90%;
+  
+  }
+}

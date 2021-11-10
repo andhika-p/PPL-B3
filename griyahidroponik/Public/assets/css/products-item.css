@@ -1,0 +1,26 @@
+.body-container{
+  padding-top: 70px;
+  width: 80%;
+  /* height: 700px; */
+  margin: 0 auto;
+  background-color: sandybrown;
+}
+
+.body-container .detail{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.body-container .detail .images{
+  width: 50%;
+  height: 100%;
+  background-color: seagreen;
+}
+.body-container .detail .value-products{
+  width: 50%;
+  height: 100%;
+  background-color: brown;
+}
+

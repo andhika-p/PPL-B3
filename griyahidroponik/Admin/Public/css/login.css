@@ -1,0 +1,51 @@
+.body-container{
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.login-form{
+  width: 48%;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  /* height: 430px; */
+  /* background-color: green; */
+}
+
+.register-form{
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 48%;
+  /* background-color: violet; */
+}
+
+.login-form input .register-form input{
+  margin-bottom: 10px;
+}
+
+
+
+/* tablet */
+@media screen and (max-width:768px) {
+  .body-container{
+    width: 100%;
+  
+    display: block;
+  }
+  .login-form{
+    
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  .register-form{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+}

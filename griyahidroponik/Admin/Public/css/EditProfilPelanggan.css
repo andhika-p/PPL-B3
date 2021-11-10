@@ -1,0 +1,11 @@
+.body-container{
+  width: 400px;
+  padding: 30px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.body-container input{
+  margin-bottom: 10px;
+}

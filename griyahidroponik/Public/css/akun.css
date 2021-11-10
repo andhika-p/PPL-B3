@@ -1,0 +1,101 @@
+.body-container{
+  /* background-color: brown; */
+
+  padding: 20px;
+}
+
+.pop-dialog{
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.623);
+  display: none;
+}
+.pop-dialog .dialog{
+  margin: auto;
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  height: 30%;
+  background-color: white;
+}
+.pop-dialog .dialog button{
+  height: 40px;
+  margin-left: 20px;
+}
+.pop-dialog .dialog h5{
+  margin: auto;
+
+}
+
+.profil{
+  margin-top: 0px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.profil .avatar, .profil .profil-value{
+  margin: auto;
+}
+
+.profil .avatar{
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 400px;
+
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  
+  /* background-color: blue; */
+} 
+
+.profil .avatar label, .profil .avatar input{
+  margin: auto;
+}
+
+
+.profil .profil-value{
+  /* border: 1px solid grey; */
+  font-size: 25px;
+  border-radius: 10px;
+  width: 49.5%;
+  height: 300px;
+  padding-top: 20px;
+}
+
+.deskripsi{
+  width: 49.5%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width:768px) {
+  .profil{
+    width: 110%;
+    display: block;
+    margin: auto;
+  }
+  .profil .avatar{
+    width: 100%;
+  }
+  .profil .profil-value{
+    width: 100%;
+  }
+  .deskripsi{
+    width: 110%;
+  }
+  .body-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+}
